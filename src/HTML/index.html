@@ -39,19 +39,19 @@
           >Login</a
         >
       </div>
-      <div
+      <button
         class="hidden md:flex gap-4 items-center border border-gray-600 px-2 py-3 rounded-lg hover:border-red-950 hover:ring-2"
       >
         <img src="../assets/asset 1.svg" alt="logo" />
         <span> Electron Developers </span>
         <i class="fa-solid fa-arrow-right"></i>
-      </div>
+      </button>
 
       <button class="p-2 md:hidden" onclick="handleMenu()">
         <i class="fa-solid fa-bars text-2xl text-gray-600"></i>
       </button>
 
-      <div id="nav-dialouge" class="fixed  bg-white inset-0 p-3">
+      <div id="nav-dialouge" class="fixed bg-white inset-0 p-3">
         <div class="flex justify-between" id="nav-bar">
           <a href="#" id="brand" class="flex items-center gap-2">
             <img
@@ -63,9 +63,48 @@
           </a>
 
           <button class="p-2 md:hidden" onclick="handleMenu()">
-            <i class="fa-solid fa-xmark text-red-700 hover:scale-150 hover:delay-5000"></i>
+            <i
+              class="fa-solid fa-xmark text-red-700 hover:scale-150 hover:delay-5000"
+            ></i>
           </button>
         </div>
+
+        <div class="mt-10">
+          <a
+            href="#"
+            class="font-medium m-3 p-3 hover:bg-gray-100 block rounded-lg"
+            >Pricing</a
+          >
+          <a
+            class="font-medium m-3 p-3 hover:bg-gray-100 block rounded-lg"
+            href="#"
+            >Docs</a
+          >
+          <a
+            class="font-medium m-3 p-3 hover:bg-gray-100 block rounded-lg"
+            href="#"
+            >Changelog</a
+          >
+          <a
+            class="font-medium m-3 p-3 hover:bg-gray-100 block rounded-lg"
+            href="#"
+            >Blog</a
+          >
+          <a
+            class="font-medium m-3 p-3 hover:bg-gray-100 block rounded-lg"
+            href="#"
+            >Login</a
+          >
+        </div>
+
+        <div class="h-[1px] bg-gray-150"></div>
+        <button
+          class="hidden md:flex gap-4 items-center border border-gray-600 px-2 py-3 rounded-lg hover:border-red-950 hover:ring-2"
+        >
+          <img src="../assets/asset 1.svg" alt="logo" />
+          <span> Electron Developers </span>
+          <i class="fa-solid fa-arrow-right"></i>
+        </button>
       </div>
     </nav>
   </body>
